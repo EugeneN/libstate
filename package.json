@@ -1,0 +1,21 @@
+{
+  "name": "libstate",
+  "description": "Simple state abstraction library",
+  "version": "0.0.1",
+  "author": {
+    "name": "E.Naumenko"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EugeneN/libstate"
+  },
+  "scripts": {
+    "postinstall": "coffee -c index.coffee"
+  },
+  "engine": [
+    "node >=0.1.102"
+  ],
+  "main": "./index.js",
+  "dependencies": { },
+  "readmeFilename": "README.md"
+}
